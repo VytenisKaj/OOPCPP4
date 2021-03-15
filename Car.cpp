@@ -121,8 +121,8 @@ namespace MyCar{
         }
 
         std::stringstream ss;
-        ss << "ID: "<< objectID << " " << manufacturer << " " << model << " " << manufactureYear << " " << color << " " << plate << " "
-         << vin << " " << enginePower << " KW "<< weight << " KG";
+        ss << manufacturer << " " << model << " " << manufactureYear << " " << color << " " << plate << " "
+         << vin << " " << enginePower <<  " " << weight;
         return ss.str();
     }
 
